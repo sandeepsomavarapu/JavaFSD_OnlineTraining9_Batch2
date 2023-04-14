@@ -1,0 +1,191 @@
+
+Language:
+=========
+
+
+		English-->communication with humans
+		
+Programming Languages:
+=======================
+				communication with machines
+				
+	  POP							OOPs	
+	B,BCPL,C,COBOL,PHOTON	    c++,java,python,.net..Smaltalk--oopl
+
+					1)performance --->inheritance,polymorphisam
+					2)security	 --->encapsualtion,abstraction
+	
+1993
+1996 :James gosling  jdk 1.0 
+
+2023 				20
+
+1.8
+sun micro system --->oracle corporation
+
+
+
+Features:
+=========
+		
+		1)Platform Independent
+		
+		2)Garbage collection-- c,c++
+
+
+
+ machine1   			machine2         machine3 
+	windows 11 			windows 8		 	linux
+ javaapp--->WORA
+
+.net--microsoft -->PD
+
+
+2gb-->garbage collector-->JDK
+
+
+Setup,
+
+java
+
+JDK-->java development kit 
+
+java -version
+
+https://www.javatpoint.com/javafx-how-to-install-java
+
+
+
+JVM:
+
+javac -version   -->to know compiler version
+
+
+alphabets -56,26...
+
+
+
+java keywords
+				53-->lower case 
+
+HelloWorld
+
+
+welcome to java 
+
+
+		.java 
+
+class Welcome
+{
+
+public static void main(String args[])
+{
+
+System.out.println("welcome to java");
+
+}
+
+
+}
+
+
+Identifiers:
+============
+	any name in java will call it as identifier 
+
+		class name,var name,methods name,obj name....
+
+
+		class Welcome@123
+		{
+		
+		
+		
+		}
+
+
+		a-z
+		A-Z
+		0-9
+		$
+		_
+
+Variables:
+===========
+
+		name of memory location
+
+		syntax:
+		
+			datatype varname=value
+
+				int age=30;//
+				
+					int age;//declaration
+					
+					age=21;//intialization
+
+datatype
+		2 types
+
+		PDT 10	 51-10=41				NPDT
+8 							String,array,class.....
+
+byte	1 byte		-128 to 127
+short	2 bytes		-32768 to 32767
+int 	4 bytes		-2147483648	to 2147483647
+long	8 bytes		-2 power 63 to (2 power 63)-1				numeric data 	 contact=7777777777;
+
+float 	4 bytes						23.42342315793;
+double	8 bytes									14-15 	decimal values
+
+char 	2 bytes 						'M'	
+boolean  1 bit 	  					true-1,false-0 
+
+
+
+
+2 types of variables
+
+	local variables		inside the method
+	global variables	outside the method 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
