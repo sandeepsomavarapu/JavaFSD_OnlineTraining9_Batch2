@@ -125,6 +125,11 @@ Variables:
 					int age;//declaration
 					
 					age=21;//intialization
+					
+					
+					welcome.java
+					
+					javac Welcome.java --->.class-->java Welcome  -->JVM
 
 datatype
 		2 types
@@ -152,38 +157,94 @@ boolean  1 bit 	  					true-1,false-0
 	global variables	outside the method 
 	
 
+			global variables-->instance and static 
+
+
+
+Instance and static:
+====================
+
+1)Syntax:
+=========
+	static int countryCode=91;  4 bytes
+			int empId=1111;  non static 
+
+2)Memory
+========
+		static variables will get memory space at the time of class loading into JVM and only once
+		instance variables will get memory everytime when we create object 
+		
+					class --- object 
+		
+			TREE/CAR-->objects 
+									A
+									
+							classname objname=new classname();	
+								A  obj=new A();
+			
+
+3)Access
+
+		static properties can be accessed by using class name 
+		instance properties can be accessed by using obj name 
+
+4)Usage
+		common data to represent like country name,state name,school name,clg name....static
+		
+		
+		unique dara to represent like contact,aadhar,pan,bank accno...instance
+		
+
+
+eclipse IDE
+
+
+https://www.eclipse.org/downloads/packages/release/2021-03/r
+
+
+			Eclipse IDE for Enterprise Java and Web Developers
 
 
 
 
+Instance and static methods:
+===========================
+
+			public static void main(String[] args) {
 
 
+			}
 
 
+		accessmodifier instance/static returntype methodname(parameters....)
+			{
+			
+			
+			}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		public 	int	addOfTwo(int a ,int b)
+		{
+		
+		return a+b;
+		
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 
 
