@@ -230,16 +230,35 @@ Instance and static methods:
 		
 		}
 		
+		if,else,for,do,while,switch....
 		
 		
 		
+OOPS:
+=======
+		1)Inheritance
+		2)polymorphisam
+		3)encapsulation
+		4)abstraction
+		
+Inheritance:
+=============extends,implements
+	
+				
+		class A
+		{
+			
+		//20 methods
+		//10 variables
+	
+		}
+		
+		class B extends A
+		{
+		//10 methods
 		
 		
-		
-		
-		
-		
-		
+		}
 		
 		
 		
