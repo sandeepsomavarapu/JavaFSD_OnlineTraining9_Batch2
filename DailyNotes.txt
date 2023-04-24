@@ -260,10 +260,52 @@ Inheritance:
 		
 		}
 		
+	abstract/ concrete :
+=======================	
+		
+		method with out body/implementation -->abstract
 		
 		
-		
-		
+				public void add(int a,int b)
+				{
+				//concrete method
+				}
+				public abstract void sub(int a,int b);//abstract method
+
+				
+				
+		class			:its a collection of only concrete methods
+		abstract class	:its a combination of both abstract and concrete methods
+		interface 		:its a collection of only abstract methods
+				
+				
+		abstraction:	ATM -->	
+				
+					hiding the logic/internal details to the end user by show casing functionalities
+				
+				
+				ABSTRACT CLASS	:0-100
+				INTERFACE 		:100%  -->by default interface methods public abstract
+				
+				
+INTERFACE 
+
+ABSTRACT 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
