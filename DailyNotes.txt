@@ -419,6 +419,31 @@ default:	pacakge level scope
 
 
 
+NOTE:
+	1)by default super class for every java class is java.lang.Object
+	2)by default package for every java file java.lang
+
+
+
+	import
+
+
+Encpasulation:
+===============
+process of bidning the data and methods together 
+
+
+		data --->private 
+		methods -->public 
+
+
+
+
+
+
+
+
+
 
 
 

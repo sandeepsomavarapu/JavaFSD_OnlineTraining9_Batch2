@@ -1,17 +1,9 @@
-package pack1;
-
-import com.excelr.oops.Employee;
+package com.ot9.oops;
 
 public class Client {
-
 	public static void main(String[] args) {
-
 		Employee emp = new Employee();
-		emp.setEmpId(123);
-		emp.setEmpName("mahesh");
-		
-		
+		emp.setEmpName("suresh");
 		System.out.println(emp.getEmpName());
 	}
-
 }
