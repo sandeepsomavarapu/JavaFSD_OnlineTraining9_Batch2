@@ -1,458 +1,258 @@
-
 Language:
 =========
 
-
-		English-->communication with humans
-		
-Programming Languages:
-=======================
-				communication with machines
-				
-	  POP							OOPs	
-	B,BCPL,C,COBOL,PHOTON	    c++,java,python,.net..Smaltalk--oopl
-
-					1)performance --->inheritance,polymorphisam
-					2)security	 --->encapsualtion,abstraction
-	
-1993
-1996 :James gosling  jdk 1.0 
-
-2023 				20
-
-1.8
-sun micro system --->oracle corporation
+		English:communication
 
 
 
-Features:
+JAVA:
+=====
+	Programming Language:Communication with machines
+
+
+Programming Language
+
+		POP										OOP
+		B,BCPL,COBOL,PHOTON,C..         	c++,java,python,.net....Smalltalk
+
+
+								1)Performance		inheritance,polymorphisam	
+								2)Security			encapsulation,abstraction
+
+
+1993			ORACLE
+WHY JAVA?sun micro system-->James gosling
 =========
-		
-		1)Platform Independent
-		
-		2)Garbage collection-- c,c++
+	1996 
+			JDK
+	simple
+	
+	
+	
+	java 20   java1.8
+	
+			1)Platform independent 
+			2)Garbage Collection  -->garbage collector 
+	
+	ORacle 											Microsoft
+WORA		windows 					
+
+		.java 										.net
+
+sandeep				rajashekar			pooja 
+windows 11				linux			mac
+	.net app
+WORA
+2 gb
+
+MCQ LINK:
+===========
+
+http://www.maamu.itgo.com/other/javaquiz1.htm
 
 
 
- machine1   			machine2         machine3 
-	windows 11 			windows 8		 	linux
- javaapp--->WORA
 
-.net--microsoft -->PD
-
-
-2gb-->garbage collector-->JDK
-
-
-Setup,
-
-java
-
-JDK-->java development kit 
-
-java -version
+Java installation and path setup
 
 https://www.javatpoint.com/javafx-how-to-install-java
 
+java -version.
 
+		java version "1.8.0_281"
+		Java(TM) SE Runtime Environment (build 1.8.0_281-b09)
+		Java HotSpot(TM) 64-Bit Server VM (build 25.281-b09, mixed mode)
 
-JVM:
+javac -version
+javac 1.8.0_281
 
-javac -version   -->to know compiler version
-
-
-alphabets -56,26...
-
-
-
-java keywords
-				53-->lower case 
-
-HelloWorld
 
 
 welcome to java 
 
 
-		.java 
+.java	.html    .py
+
+
+telugu  alphabets 56 		26
+
+33 python
+
+keywords 53   lower case 
+
+
+Welcome Example:
+=================
 
 class Welcome
 {
-
+	
 public static void main(String args[])
 {
-
-System.out.println("welcome to java");
-
+	
+	System.out.println("welcome to java");
+	
+	
+}	
+	
+	
 }
 
+//jdk-->jre-->JVM
+//machine language --->0's 1's / binary /byte 
 
-}
+//translation-->translator
+
+//compailation-->compiler   user understandable lang-->machine understandable lang
+
+//source code -->byte code 
+
+// .java -->.class-(JVM)
 
 
-Identifiers:
+//javac filename.java--->.class-->jvm-->output
+
+
+
+Eclipse :
 ============
-	any name in java will call it as identifier 
+https://www.eclipse.org/downloads/packages/release/2020-12/r
 
-		class name,var name,methods name,obj name....
 
+Eclipse IDE for Enterprise Java Developers
 
-		class Welcome@123
-		{
-		
-		
-		
-		}
 
 
-		a-z
-		A-Z
-		0-9
-		$
-		_
-
-Variables:
-===========
-
-		name of memory location
-
-		syntax:
-		
-			datatype varname=value
-
-				int age=30;//
-				
-					int age;//declaration
-					
-					age=21;//intialization
-					
-					
-					welcome.java
-					
-					javac Welcome.java --->.class-->java Welcome  -->JVM
-
-datatype
-		2 types
-
-		PDT 10	 51-10=41				NPDT
-8 							String,array,class.....
-
-byte	1 byte		-128 to 127
-short	2 bytes		-32768 to 32767
-int 	4 bytes		-2147483648	to 2147483647
-long	8 bytes		-2 power 63 to (2 power 63)-1				numeric data 	 contact=7777777777;
-
-float 	4 bytes						23.42342315793;
-double	8 bytes									14-15 	decimal values
-
-char 	2 bytes 						'M'	
-boolean  1 bit 	  					true-1,false-0 
-
-
-
-
-2 types of variables
-
-	local variables		inside the method
-	global variables	outside the method 
-	
-
-			global variables-->instance and static 
-
-
-
-Instance and static:
-====================
-
-1)Syntax:
-=========
-	static int countryCode=91;  4 bytes
-			int empId=1111;  non static 
-
-2)Memory
-========
-		static variables will get memory space at the time of class loading into JVM and only once
-		instance variables will get memory everytime when we create object 
-		
-					class --- object 
-		
-			TREE/CAR-->objects 
-									A
-									
-							classname objname=new classname();	
-								A  obj=new A();
-			
-
-3)Access
-
-		static properties can be accessed by using class name 
-		instance properties can be accessed by using obj name 
-
-4)Usage
-		common data to represent like country name,state name,school name,clg name....static
-		
-		
-		unique dara to represent like contact,aadhar,pan,bank accno...instance
-		
-
-
-eclipse IDE
-
-
-https://www.eclipse.org/downloads/packages/release/2021-03/r
-
-
-			Eclipse IDE for Enterprise Java and Web Developers
-
-
-
-
-Instance and static methods:
-===========================
-
-			public static void main(String[] args) {
-
-
-			}
-
-
-		accessmodifier instance/static returntype methodname(parameters....)
-			{
-			
-			
-			}
-
-
-		public 	int	addOfTwo(int a ,int b)
-		{
-		
-		return a+b;
-		
-		}
-		
-		if,else,for,do,while,switch....
-		
-		
-		
-OOPS:
-=======
-		1)Inheritance
-		2)polymorphisam
-		3)encapsulation
-		4)abstraction
-		
-Inheritance:
-=============extends,implements
-	
-				Code Reusability
-		class A
-		{
-			
-		//20 methods
-		//10 variables
-	
-		}
-		
-		class B extends A
-		{
-		//10 methods
-		
-		
-		}
-		
-	abstract/ concrete :
-=======================	
-		
-		method with out body/implementation -->abstract
-		
-		
-				public void add(int a,int b)
-				{
-				//concrete method
-				}
-				public abstract void sub(int a,int b);//abstract method
-
-				
-				
-		class			:its a collection of only concrete methods
-		abstract class	:its a combination of both abstract and concrete methods
-		interface 		:its a collection of only abstract methods
-				
-				
-		abstraction:	ATM -->	
-				
-					hiding the logic/internal details to the end user by show casing functionalities
-				
-				
-				ABSTRACT CLASS	:0-100
-				INTERFACE 		:100%  -->by default interface methods public abstract
-				
-				
-INTERFACE 
-
-ABSTRACT 
-
-
-		MI not supported by java  through classes 
-		MI supported by java through interfaces 
-
-
-
-interfcae A           interfcae B
-{						{
-
-
-m1();					m1();
-
-
-}						}
-
-class C implements A,B
-{
-
-C c =new C();
-	c.m1();
-
-
-m1()
-{
-
-}
-}
-package --->folder
-		predefined 
-		user defined  package com.onlinetraining9.basic
-import 
-
-
-
-Polymorphisam:
+Identifiers:-
 ==============
-many  forms 
+ any name in java will call it as identifier
+ 
+	classname,method,variable,interface,.....
+ 
+ 
+			a-z
+			A-Z
+			0-9
+			$
+			_
+ 
+ variables:
+ ===========
+ contactname contactnumber
+ 
+ 
+	sandeeptrainer		6323273672323
 
 
-same action in different ways 
-
-
-method overloading:method name is signature is different 
-
-									no of params
-									order of params
-									type of  params
-									
-									
-					
-package com.ot9.oops;
-
-public class MethodOverloadingEx {
-	public void add(float a, float b) {
-		System.out.println("add of two float's :" + (a + b));
-	}
-
-	public void add(int a, int b) {
-		System.out.println("add of two int's :" + (a + b));
-	}
-
-	public void add(int a, int b, int c) {
-		System.out.println("add of three int's :" + (a + b + c));
-	}
-
-	public void add(int a, float b) {
-		System.out.println("add of int ,float :" + (a + b));
-	}
-
-	public void add(float a, int b) {
-		System.out.println("add of two int's :" + (a + b));
-	}
-
-	public static void main(String[] args) {
-		MethodOverloadingEx obj=new MethodOverloadingEx();
-						obj.add(121,12);
-						obj.add(12.1f,12.3f);
-						obj.add(121,12.90f);
-						
+		datatype varname=value;//static typing
 		
-	}
-}
-					
+		
+				datatype varname;//declaration of variable
+				
+				varname=value;//intialization of variable
+				
+				
+	10 keywrods 			
 
-Type promotion:
 
-public class MethodOverloadingEx {
-	public void add(float a, float b) {
-		System.out.println("add of two float's :" + (a + b));
-	}
 
-	public void add(int a, int b) {
-		System.out.println("add of two int's :" + (a + b));
-	}
+datatype		-->PDT      NPDT(string,array,class....)
 
-	public void add(int a, int b, int c) {
-		System.out.println("add of three int's :" + (a + b + c));
-	}
+	contactnum,age,bankaccntnum,aadhar num--->numeric data (numbers)
+	
+	address,name,fname,--->characters
+	
+	salary->12.54 lpa,marks->9.5,balance 2000.50  -->decimal value
+
+
+8 PDT 				
+
+byte 		1 byte --8bits	-128 to 127				 long aadharno=89189382393298
+short		2 bytes			-32768 to 32767
+int 		4 bytes			-2147583648 to 2147483647
+long		8 bytes			-2 power 63 to 2 power 63 -1 	long age=30; byte age1=29;
+
+float		4 bytes			2000.5498779979833f
+double		8 bytes					
+
+char 		2 bytes			'a'	 c-->english-->ASCII  java-->18 international lang	M/F  'M'
+boolean		1 bit    						 		 true-1,false-0
+
+
+
+datatype varname=value;
+
+
+byte age=30;
+
+		2 types
+		
+		1)local variable  :variable inside the  method
+		
+		2)global variable  :variable outside the method 
+		
+						1)instance 		2)static 
+		
+syntax:
+========
+	static	int countryCode=91;
+
+			int eid=1212;
+
+Memory
+======
+	static properties will get memory space only once  at the time of class loading into JVM
+	instance properties will get memory space for every object creation
+	
+				class A
+				
+				Object : classname objname=new classname();
+				
+							A obj=new A();
+	
+Access:
+=======
+			static properties can be accessed by using classname
+			instance properties can be accessed by using objeref 
+
+
+Usage :
+=======
+		to represent common data will go static like countryname,school name,clg name.....
+		to represent unique data will go instance like eid,aadhar,pan,contact......
+		
+	
+
+
+eclipse,intellji,myeclipse,netbeans.....vscode
+		
+		
+		
+		
+		
+public class Welcome {
+	static int countryCode = 91;//static and global
+	int empId=111;				//instance and global
 
 	public static void main(String[] args) {
-		MethodOverloadingEx obj = new MethodOverloadingEx();
-		obj.add(121, 12);
-		obj.add(12.1f, 12.3f);
-		obj.add(121, 12.90f);
-		obj.add('a', 'b');//type promotion
+		// main-->ctrl+space-->enter
 
+		int result=230;//local variables
+		
+		System.out.println("welcome to java eclipse");
+		
+		System.out.println(result);
+		
+		System.out.println(Welcome.countryCode);
+		//classname objname=new classname();
+		Welcome wel=new Welcome();//object 
+		
+		System.out.println(wel.empId);
 	}
-}
+}// ctrl+shift+f
 
-
-method overriding :
-===================
-method name is same implementation is different
-
-
-
-
-public :every where 
-
-private :class level scope
-
-protected:inside the package everywhere  otuside the package only in child
-
-default:	pacakge level scope
-
-
-
-NOTE:
-	1)by default super class for every java class is java.lang.Object
-	2)by default package for every java file java.lang
-
-
-
-	import
-
-
-Encpasulation:
-===============
-process of bidning the data and methods together 
-
-
-		data --->private 
-		methods -->public 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		
+		
+		
+		
 
