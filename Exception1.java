@@ -1,26 +1,20 @@
 package com.ot9.exceptions;
-
 import java.util.Scanner;
-
-public class Exception1 {
+class Exception1 {
 	public static void main(String[] args) {
+	
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Enter first number division :");
+		int a=scanner.nextInt();
+		System.out.println("Enter second number division :");
+		int b=scanner.nextInt();
+	
+		System.out.println("division two numbers : "+(a/b));
 
-		Scanner scan = new Scanner(System.in);
-
-		System.out.println("Enter First number division");
-		int firstNum = scan.nextInt();
-		System.out.println("Enter Second number division");
-		int secondNum = scan.nextInt();
-		try {
-		int result = firstNum / secondNum;
-		System.out.println("Division of two numbers : " + result);
-		}catch (ArithmeticException e) {
-		System.out.println("dont enter zero as denominator");
-		}
+		System.out.println("remaining  100 lines code ");
+	
+		scanner.close();
 		
-		System.out.println("Remaining lines of code ....");
 		
-		//Abnormal Termination
-		//system defined error messages 
 	}
 }
