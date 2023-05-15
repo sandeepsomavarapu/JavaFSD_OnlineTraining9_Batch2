@@ -455,6 +455,7 @@ SCP
 
 StringBuffer,StringBuilder -->muttable
 
+not synchronized  /synchronized
 
 Exception Handling :
 ====================
@@ -465,25 +466,80 @@ JVM/system defined error messages
 	ABNORMAL TERMINATION
 
 
+Multi Threading:
+===============
+
+multi tasking:
+		executing several tasks simultaniously 
+		
+
+
+	Process based multi tasking 
+	
+			executing several tasks simultaniously where each task is seprate independent process .
+					
+					ex:eclipse,excel,calculator,teams
+			
+			
+	Thread Based Multi tasking
+	
+					executing several tasks simultaniously where EVERY task belongs TO the SAME PROCESS.
+
+			multi threading
+	
+
+2 ways   java.lang 
+
+	implements Runnable(I)  SAM   run()
+	extends Thread 	(C)
+
+
+class MyThread implements Runnable
+
+{
+
+	run()
+	{
+	
+	
+	}
+Thread
+		start()
+
+}
+
+https://www.javamadesoeasy.com/2015/03/thread-states-thread-life-cycle-in-java.html
+
+
+synchronization:
+
+
+synchronized
+
+	public synchronized void m1()
+	{
+	
+	
+	}
+										t1,t2,t3
+										
+	public  void m2()
+	{
+	
+	
+	}
 
 
 
 
+Inter thread communication:
 
 
+	communication between threads 
+	
+	
+	wait notify notifyAll  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+			odd--->1,3,5,7,9....		
+			even --->2,4,6,8,10... waiting--->wait()--->notify
 
