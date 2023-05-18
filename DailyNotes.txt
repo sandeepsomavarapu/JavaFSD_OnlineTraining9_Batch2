@@ -578,8 +578,13 @@ Collection Framework:
 
 
 
+java.lang.Comparable -->NSO-->SAM-->FI-->compareTo
+java.util.Comparator -->CSO-->SAM-->FI-->compare
 
-
-
+		System.out.println("suresh".compareTo("akash"));
+			
+			//returns -ve if obj1 has to come before obj2
+			//returns +ve if obj1 has to come after obj2
+			//returns 0 if both are same
 
 
