@@ -588,3 +588,57 @@ java.util.Comparator -->CSO-->SAM-->FI-->compare
 			//returns 0 if both are same
 
 
+
+Case study:
+===========
+
+ProductManagement Application:
+==============================
+	
+1)add product
+2)update product
+3)delete product
+4)get product by id
+5)getall products
+6)getall products by price range
+7)get all products by category
+8)exit
+
+
+
+
+Bank Case study:
+===============
+
+
+**********************Welcome to Imaginary Bank**********************
+
+
+
+Please enter a number to select one of the following options:
+1. Create Account
+2. Show Balance
+3. Make a Deposit
+4. Make a Withdrawal
+5. Fund Transfer Within the Bank
+6. Print Transactions for an Account Number
+7. Exit
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
