@@ -625,18 +625,64 @@ Please enter a number to select one of the following options:
 7. Exit
 	
 	
+Database:
+=========
+
+oracle,mysql,db2,postgres....
+
+mongodb....
 
 
 
+MYSQL
+
+https://dev.mysql.com/downloads/installer/
 
 
+		tables -->rows +columns
 
 
+DDL -->create,alter,drop,truncate,rename
+DML -->insert,update,delete
+DRL -->select
 
 
+create database onlinetraining;
+use onlinetraining;
+create table employees(eid int,ename varchar(10),esal int,eadd varchar(10));
+alter table emps add designation varchar(10);
+describe emps;
+alter table emps drop designation ;
+alter table emps change eid empno int;
+alter table emps rename employees;
+truncate table employees;
+drop table employees;
+insert into employees values(123,"mahesh",20000,"hyderabad");
+insert into employees values(124,"naresh",40000,"banglore");
+insert into employees values(125,"rajesh",50000,"hyderabad");
+insert into employees values(126,"somesh",30000,"delhi");
+insert into employees values(127,"suresh",35000,"banglore");
+insert into employees values(128,"hitesh",45000,"delhi");
+insert into employees(eid,ename) values(168,"sandeep");
+select * from employees;
+select eid,ename from employees;
+update employees set esal=esal+5000 where eadd="hyderabad";
+update employees set esal=esal+1000;
+delete from employees where esal>45000;
+select * from employees;
+select * from employees where eadd="delhi";
+select max(esal) from employees;
+select min(esal) from employees;
+select avg(esal) from employees;
+select sum(esal) from employees;
+select count(esal) from employees;
 
+#unique,notnull,PK,check,FK
 
+create table emps(eid int primary key,ename varchar(10),esal int,eadd varchar(10));
 
+insert into emps values(123,"mahesh",20000,"hyderabad");
+insert into emps values(124,"naresh",40000,"banglore");
 
 
 
