@@ -685,6 +685,119 @@ insert into emps values(123,"mahesh",20000,"hyderabad");
 insert into emps values(124,"naresh",40000,"banglore");
 
 
+JDBC:Java Database Connectivity
+
+
+
+		java<---->Database-->username ,password,url,driver class
+
+
+
+JDBC API
+
+5 steps 
+
+loading the driver class
+
+
+creating the connection
+
+
+creating the statement
+	
+executing the querys
+
+close the connection
+
+
+
+
+JPA--->sun micro system-->specification
+
+
+implementations of JPA
+		
+		ORM Tools-->hibernate,eclipselink,toplink,ibatis.....
+	
+
+
+no querys
+
+no table creation
+
+no exceptions
+
+no boilerplate code 
+
+
+
+ORM
+
+
+table-->class
+
+rows--->objects
+
+columns-->variables
+
+
+
+@Enitity
+@Table
+class Employee		-->table
+{
+@Id
+@GeneratedValue
+@Column
+private int empId;// columns
+private String empName;//
+
+
+
+}
+
+Client
+{
+
+	EntityManagerFactory emf=Persistence.createEntityManagerFactory();
+	EntityManager entityManager
+	
+	//persist()-->insert,merge()-->update,remove()-->delete,find() -->select
+	//createQuery()->JPQL,getTransaction(),begin(),commit(),executeUpdate(),getResultList(),getSingleResult()
+}
+
+META-INF
+persistence.xml
+
+<persistence>
+
+<persistence-unit>
+<property >
+<!--database properties-->
+<!-- hibernate properties>
+
+
+JPQL:-->querys-->database independent querys
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
