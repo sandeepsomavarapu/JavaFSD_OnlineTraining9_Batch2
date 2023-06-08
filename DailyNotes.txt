@@ -782,18 +782,129 @@ JPQL:-->querys-->database independent querys
 
 
 
+Spring:
+========
+			non-invasive ,light weight ,loosley coupled applications
+		
+	Framework	
+		
+		invasive	:Struts ,even the it is a framework it will force to the developer to implement predefined API
+		non-invasive:spring,hibernate
+		
+		
+		
+		servlets:web applications
+		
+				1)implements Servlet
+				2)extends GenericServlet
+				3)extends HttpServlet --11 methods
+		
+		EJB-->heavy weight
+
+
+rod johnson	-->spring 2003 1.x-----6.x  spring boot 3.x
+
+spring jars 
+
+loosley coupled
+
+			spring container:BeanFactory,ApplicationContext:life cycle of a object 
+			
+					1)instantiation 
+					2)wiring
+					3)configuring
+					4)destroying
+			
+			
+			
+			A						container (configuration file)
+			B											3 types 
+			C										1)xml config
+													2)annotation config
+													3)java config
+	
+	NOTE:	spring has given annotations for user defined classes but not for predefined classes 
+																				java config 
+			
+			@Component @Service @Repository @Configuration @Autowired @ComponentScan
+			
+			@Bean
+		
+		light weight 
+		heavy weight 
+		
+		
+		loosley coupled 
+		tightly coupled 
+		
+
+		spring core 
+		
+					setter injection (property)and constructor injection(constructor-arg),autowiring
+																					
+		spring jpa  
+		
+				jpa_hibernate-->light weight 
+				
+						loosley coupled
+						
+					spring mvc JPA	-->dynamic   html
+						
+						
+		
+		spring mvc (model view controller)Spring MVC
+					DispactherServlet
+					
+					
+					1)configuration
+					2)maven dependencies 
+					3)server
+					
+				   6.x
+		springboot:3.x
+		===========	
+					1)AutoConfiguration:most of the commonly used classes already configured by the spring boot
+					2)Starters:bundle of jars 
+					3)embeded server:internal server tomcat
+					4)actuators : endpoint urls health status,beans,...
+		
+		case study
+
+
+	STS-->spring tool suite
+
+
+		productmanagement app
+		
+				add product
+				update product 
+				delete product
+				get product
+				getall products
 
 
 
+	webservices:
+	============share info between two interoperable applications
+	phonepe
+	
+	ATM--
+	
+	
+	
+	REST	xml,json,pt,js,html..
+	
+	SOAP	XML
 
+Product product=new Product(123,"samsung",9000,"electronics");
 
-
-
-
-
-
-
-
+postman
+			{
+			"productId":123,
+			"productName":"samsung",
+			"productPrice":9000,
+			"productCategory":"electronics"
+			}
 
 
 
